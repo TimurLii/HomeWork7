@@ -49,7 +49,7 @@ void average(int[,] array)
         double avg = 0;
         for (int j = 0; j < array.GetLength(0); j++)
         {
-            sum += + array[j, i];
+            sum +=  array[j, i];
             avg = Math.Round(sum / array.GetLength(0), 1);
         }
         Console.WriteLine($"Среднее арифмитическое элементов столбца {i} : {avg}");
