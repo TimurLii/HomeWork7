@@ -52,6 +52,6 @@ void average(int[,] array)
             sum += + array[j, i];
             avg = Math.Round(sum / array.GetLength(0), 1);
         }
-        System.Console.WriteLine($"Среднее арифмитическое элементов столбца {i} : {avg}");
+        Console.WriteLine($"Среднее арифмитическое элементов столбца {i} : {avg}");
     }
 }
